@@ -1,0 +1,129 @@
+*{
+	margin: 0 auto 0 auto;
+	text-align:left;
+padding:0; list-style:none;
+}
+
+body{
+	margin:0;
+	padding:0;
+	text-align:left;
+	font-family:arial,helvetica, sens-serif;
+	color:#000000;
+	background-color:#66ccff;/*背景色*/
+	background-image:url(../image/background.jpg);/*背景图*/
+	background-attachment:fixed;
+	background-position: center center ;
+}
+/*顶栏*/
+.WB_global_nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 48px;
+    border-top: 2px solid #66ccff;/*缝缝*/
+    box-shadow:0px 2px 10px #2F5E75;
+    background: #fff;
+        background: rgba(255,255,255,0.90);
+}
+#menu{
+	width:920px;
+	height:48px;
+	text-align: center;
+
+}
+#menu ul{
+	
+ 	  /*设置div的大小*/
+ 	  width: 600px;
+    text-align: center;  /*文字水平居中对齐*/
+    line-height: 48px; /*垂直居中*/
+	overflow:hidden;
+	float:right;
+	list-style:none;
+}
+/*顶栏文字样式*/
+#menu li a{
+	float:right;
+	color:#696e78;/*顶栏文字颜色*/
+	text-decoration:none;
+	font-size: 16px;
+    font-weight: normal;
+	padding:0 8px 0 55px;
+	display: inline-block;
+    overflow: hidden;
+}
+#menu li a:hover{/*悬停*/
+	color: #66ccff;
+}
+.logo{
+	float:left;
+    margin: 4px 20px 100px 5px;
+}
+#v1p{
+	width: 300px
+	margin:0px 100px 200px 5px;
+	float: left;
+}
+#video1{
+	width: 520px;
+	float: right;
+}
+#homecontain1{
+	width:600px;
+	margin:70px auto auto auto;
+    padding: 60px 160px;
+    background: #fff;
+    overflow: hidden;
+	height:auto;
+	position:relative;
+	box-shadow:0px 0px 10px #2F5E75;
+	background: rgba(255,255,255,0.95);
+}
+#homecontain2{
+	width:800px;
+	margin:22px auto auto auto;
+    padding: 25px 30px;
+    background: #fff;
+    overflow: hidden;
+	height:auto;
+	position:relative;
+	box-shadow:0px 0px 10px #2F5E75;
+	background: rgba(255,255,255,0.95);
+}
+
+#homecontain1 p{
+	color: #737373;
+	margin-bottom: 20px;
+
+}
+#homecontain2 p{
+	color: #737373;
+	margin-bottom: 20px;
+
+}
+#homecontain1 h1{
+	font-size: 20px;
+	margin-bottom: 20px;s
+}
+
+#homecontain2 h1{
+	font-size: 20px;
+}
+
+
+/*底栏*/
+footer{
+	width:100%;
+	background:#f2f2f5;
+	color:#808080;
+	height:30px;
+	text-align:center;
+	margin-top:20px;
+	padding-top:15px;
+	box-shadow:0px -2px 10px #2F5E75;
+	background: rgba(255,255,255,0.95);
+}
+/*====================================================================================*/
